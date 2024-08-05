@@ -1,0 +1,24 @@
+Classes:
+1. Airplane.java
+Description:
+Contain information about planes landing and taking off from the airport. It should contain information 
+about if the plane is taking off or landing, its takeoff/landing time, its time in queue.
+Methods:
++isLanding(): boolean
+Precondition: The object has been set as landing or taking off.
+Postcondition: none
+This method will return true if the Airplane is landing and false if it is taking off.
+
++setLanding(boolean type): void
+Precondition: Object has been instantiated.
+Postcondition: Value stored in landing will be updated.
+
+2. Runway.java
+Description:
+Runway should simulate and track the queue of Airplane objects taking off and landing. It should track
+the time, number of planes in landing queue, number of planes in takeoff queue, number of crashes, total
+takeoffs, total landings, the average time in landing/takeoff queues, and the probability plane arrival
+in each queue.
+3. Airport.java
+Description:
+Contain the main method to simulate an airport runway using the Airplane and Runway classes.
